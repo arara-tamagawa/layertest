@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - export BUCKET=layer-codepipeline-bucket
+      - export BUCKET=layer-codepipeline-test-bucket
       - export BUCKET2=yoppy-layer-bucket
       - aws cloudformation package --template-file template.yaml --s3-bucket $BUCKET --output-template-file outputtemplate.yaml
       - aws cloudformation package --template-file python --s3-bucket $BUCKET2 --output-template-file pandas
