@@ -20,3 +20,4 @@ Resources:
         - python3.8
       ContentUri: pandas/
       LayerName: tama-layer
+      RetentionPolicy: Delete
