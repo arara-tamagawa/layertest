@@ -20,5 +20,5 @@ Resources:
         - python3.8
       Content: 
         S3Bucket: yoppy-layer-bucket
-        S3Key: pandas.zip	 #要確認
-      LayerName: tama-layer #要確認
+        S3Key: pandas.zip
+      LayerName: tama-layer
