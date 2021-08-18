@@ -11,6 +11,7 @@ Resources:
       CodeUri: hello.py
       Layers: 
         - !Ref LambdaLayer
+      Role: arn:aws:iam::373761374801:role/laytest-role
   LambdaLayer:
     Type: AWS::Serverless::LayerVersion
     Properties: 
