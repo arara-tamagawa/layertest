@@ -12,6 +12,7 @@ Resources:
       Layers: 
         - !Ref LambdaLayer
       Role: arn:aws:iam::373761374801:role/laytest-role
+      Timeout: 900
   LambdaLayer:
     Type: AWS::Serverless::LayerVersion
     Properties: 
