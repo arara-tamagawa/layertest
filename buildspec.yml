@@ -9,5 +9,5 @@ phases:
 artifacts:
   type: zip
   files:
-    - '**/template.yaml'
+    - 'layer-test-pipeline/template.yaml'
     - '**/outputtemplate.yaml'
