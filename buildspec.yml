@@ -3,8 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - export BUCKET=layer-codepipeline-test-bucket
-      - aws cloudformation package --template-file layer-test-pipeline2/template.yaml --s3-bucket $BUCKET --output-template-file layer-test-pipeline2/outputtemplate.yaml
+      - aws cloudformation package --template-file template.yaml --s3-bucket layer-codepipeline-test-bucket --output-template-file outputtemplate.yaml
 
 artifacts:
   type: zip
